@@ -3,7 +3,7 @@
 int main()
 {
 int i,count=0;
-ch s[200];
+char s[200];
 printf("enter the string:");
 scanf("%s",&s);
 for(i=0;s[i]!='\0';i++)
