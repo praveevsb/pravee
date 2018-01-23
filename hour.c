@@ -1,4 +1,4 @@
-#include<stdio.h.
+#include<stdio.h>
 int main()
 {
 int hr,hr1,hr2,min1,min2,min;
