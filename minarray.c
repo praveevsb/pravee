@@ -12,9 +12,9 @@ scanf("%d",&a[i]);
 min=a[0];
 for(i=0;i<n;i++)
 {
-if(a[i]>max)
+if(a[i]<min)
 min=a[i];
 }
-printf("greatest num is %d",count+1);
+printf("greatest num is %d",min);
 return 0;
 }
