@@ -1,4 +1,4 @@
-#include<stdio.h.
+#include<stdio.h>
 #include<string.h>
 int main()
 {
@@ -11,6 +11,6 @@ for(i=0;s[i]!='\0';i++)
 if(s[i]=' ')
 count++;
 }
-printf("no of words is %d\n",count+1);
+printf("no of words is %d\n",count);
 return 0;
 }
