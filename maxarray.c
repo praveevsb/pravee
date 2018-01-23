@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int n,a[100],count=0,i,max;
+printf("enter the number:");
+scanf("%d",&n);
+printf("enter the array values:");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+max=a[0];
+for(i=0;i<n;i++)
+{
+if(a[i]>max)
+count++;
+}
+printf("greatest num is %d",count+1);
+return 0;
+}
