@@ -13,7 +13,7 @@ max=a[0];
 for(i=0;i<n;i++)
 {
 if(a[i]>max)
-count++;
+max=a[i];
 }
 printf("greatest num is %d",count+1);
 return 0;
