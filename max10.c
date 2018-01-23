@@ -15,6 +15,6 @@ if(a[i]>max)
 max=a[i];
 }
 }
-printf("greatest num is %d:",max);
+printf("greatest num is %d",max);
 return 0;
 }
