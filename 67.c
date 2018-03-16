@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a,b;
-scanf("%d",&a);
-if(a%10==0)
-printf("%d",a);
+int c,d;
+scanf("%d",&c);
+if(c%10==0)
+printf("%d",c);
 else
-b=a+(10-(a%10));
-printf("The nearest of 10 is:%d",b);
+d=c+(10-(c%10));
+printf("The nearest of 10 is:%d",d);
 }
